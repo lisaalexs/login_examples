@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+}
+
+.form {
+    width: 500px;
+    background: white;
+    margin: 5em auto;
+    border-radius: 1em;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 1em;
+    font-weight: 500;
+    color: #413864;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.4em;
+    margin-top: 1em;
+}
+
+.row input {
+    border: 2px solid #8A87F9;
+}
+
+
+.data, .login {
+    padding: 1.3em;
+    font-weight: 700;
+    font-size: 1.2em;
+    border: none;
+    background-color: #E6E6E6;
+    border-radius: .3em;
+}
+
+.data::placeholder {
+    padding-left: 1.3em;
+    color: #8F8FA5;
+}
+
+
+input[type="checkbox"] {
+    -webkit-appearance: none;
+  appearance: none;
+  border: 6px solid #8581F9;
+}
+
+span {
+    margin-left: 1em;
+    color: #B2B2B2;
+}
+a {
+    color: #A3A1FA;
+}
+.login {
+    background-color: #8581F9;
+    color: white;
+}
