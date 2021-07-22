@@ -7,6 +7,9 @@
     font-family: 'Rubik', sans-serif;
 }
 
+body {
+    background-color: rgb(140, 136, 248);
+}
 .form {
     width: 500px;
     background: white;
